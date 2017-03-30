@@ -1,0 +1,32 @@
+{
+  "name": "bussiness-project",
+  "version": "1.0.0",
+  "description": "Proyecto que concentra todos los negocios locales que necesitan ser anunciados para un mayor crecimiento económico, así mismo el usuario tiene la posibilidad de localizar el comercio de su interés y preferencia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edd21/Business_project.git"
+  },
+  "keywords": [
+    "bussines",
+    "tracking"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edd21/Business_project/issues"
+  },
+  "homepage": "https://github.com/edd21/Business_project#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uncss": "^1.0.6"
+  }
+}
