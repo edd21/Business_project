@@ -12,9 +12,9 @@ var url 		= 'neat.dev'
 //Main paths
 var config = {
   styles: {
-    main:'./css/main.scss',
-    watch: './css/**/*.scss',
-    output: './'
+    main:'./assets/styles/main.scss',
+    watch: './assets/styles/**/*.scss',
+    output: './assets/styles/'
   }
 }
 
