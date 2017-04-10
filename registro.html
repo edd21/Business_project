@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Negocy | Registro</title>
+
+  <meta name="description" content="Sitio de busqueda de negocios">
+  <meta name="theme-color" content="#48afb9">
+  <link rel="stylesheet" href="assets/styles/style.min.css">
+  <link rel="icon" href="/assets/brand/favicon.png">
+</head>
+<body>
+  <header>
+    <!-- Sidebar Menu -->
+    <div class="ui vertical inverted sidebar menu">
+      <a class="header logo" href="index.html" class="header item"><img  src="/assets/brand/logo.png"></a>
+      <a class="active item" href="login.html">Entrar</a>
+      <a class="item"  href="registro.html">Registrarse</a>
+    </div>
+    <!--Menu-->
+    <div class="ui transparent vertical center aligned segment">
+      <div class="ui container">
+        <div class="ui large secondary inverted  menu">
+          <a class="toc item">
+            <i class="sidebar icon"></i>
+          </a>
+          <a class="header logo" href="index.html" class="header item"><img  src="/assets/brand/logo.png"></a>
+          <div class="right item">
+            <a class="ui teal button" href="login.html">Entrar</a>
+            <a class="ui button"  href="registro.html" >Registrarse</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Modal-->
+    <div id="modal" class="ui middle aligned center aligned grid">
+      <div id="login" class="column">
+        <img src="/img/brand/isologo-1.png" class="ui large image center aligned">
+        <h2 class="ui teal image header">
+
+          <div class="content">
+            Entra
+          </div>
+        </h2>
+        <form class="ui large form">
+          <div class="ui stacked segment">
+            <div class="field">
+              <div class="ui left icon input">
+                <input type="user" name="user" placeholder="Nombre de usuario">
+              </div>
+            </div>
+            <div class="field">
+              <div class="ui left icon input">
+                <i class="lock icon"></i>
+                <input type="password" name="password" placeholder="Contraseña" autocomplete="off">
+              </div>
+            </div>
+            <div class="ui fluid large teal submit button">Iniciar sesion</div>
+          </div>
+          <div class="ui error message"></div>
+        </form>
+      </div>
+    </div>
+
+  </header>
+
+  <!--Page contents-->
+  <div class="ui middle aligned center aligned grid">
+    <div id="login" class="column">
+      <img src="/img/brand/isologo-1.png" class="ui large image center aligned">
+      <h2 class="ui teal image header">
+        <div class="content">Registrate</div>
+      </h2>
+      <form class="ui large form">
+        <div class="ui stacked segment">
+          <div class="field">
+            <label>Nombre:</label>
+            <div class="ui left icon input">
+              <input type="user" name="user" placeholder="Nombre de usuario">
+            </div>
+          </div>
+          <div class="field">
+            <label>Apellido Paterno:</label>
+            <div class="ui left icon input">
+              <input type="user" name="user" placeholder="Apellido Paterno">
+            </div>
+          </div>
+          <div class="field">
+            <label>Apellido Materno:</label>
+            <div class="ui left icon input">
+              <input type="user" name="user" placeholder="Apellido Materno">
+            </div>
+          </div>
+          <div class="field">
+            <label>Contraseña:</label>
+            <div class="ui left icon input">
+              <i class="lock icon"></i>
+              <input type="password" name="password" placeholder="Contraseña" autocomplete="off">
+            </div>
+          </div>
+          <div class="column">
+            <!--<div class="ui fluid large teal submit button">Cancelar</div>-->
+            <div class="ui fluid large teal submit button">Registrarse</div>
+          </div>
+        </div>
+        <div class="ui error message"></div>
+      </form>
+    </div>
+  </div>
+
+      <footer>
+        <div class="ui inverted vertical footer bottom fixed segment">
+          <div class="ui container">
+            <div class="ui stackable inverted divided equal height stackable grid">
+              <div class="three wide column">
+                <h4 class="ui inverted header">Acerca de nosotros</h4>
+                <div class="ui inverted link list">
+                  <a href="#" class="item">Contactanos</a>
+                </div>
+              </div>
+              <div class="three wide column">
+                <h4 class="ui inverted header">Lugares de interés</h4>
+                <div class="ui inverted link list">
+                  <a href="#" class="item">Negocios</a>
+                  <a href="#" class="item"></a>
+                </div>
+              </div>
+              <div class="seven wide column">
+                <h4 class="ui inverted header">Entra y conocenos</h4>
+                <p>©2017 Bussy Todos los derechos reservados.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    <script src="assets/styles/framework/dist/semantic.min.js"></script>
+    <script src="assets/javascripts/navbar.js"></script>
+
+
+</body>
+</html>
