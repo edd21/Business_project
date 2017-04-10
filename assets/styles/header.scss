@@ -1,3 +1,6 @@
+/******************************
+Header
+******************************/
 .hidden.menu {
   display: none;
 }
@@ -5,6 +8,7 @@
 #masthead.segment {
   min-height: 700px;
   padding: 1em 0em;
+
 }
 #masthead .logo.item img {
   margin-right: 1em;
@@ -91,4 +95,9 @@
     height: 80px;
     width: auto;
   }
+}
+
+#mainbar{
+  height: 40vh;
+  background-image: url(/assets/images/map.png);
 }
