@@ -1,0 +1,25 @@
+[
+    {
+        "idCliente" : 1,
+        "Correo" : "viri@gmail.com",
+        "Contrasenia" : "1234",
+        "Nombre" : "Viridiana",
+        "Edad" : 21
+    },
+
+    {
+        "idCliente" : 2,
+        "Correo" : "edd21@gmail.com",
+        "Contrasenia" : "abcd",
+        "Nombre" : "Edgardo",
+        "Edad" : 21
+    },
+
+    {
+        "idCliente" : 3,
+        "Correo" : "kj@gmail.com",
+        "Contrasenia" : "QWERTY",
+        "Nombre" : "Adrian",
+        "Edad" : 16
+    }
+]

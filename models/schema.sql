@@ -1,0 +1,13 @@
+DROP DATABASE IF EXISTS instanciadb;
+
+CREATE DATABASE IF NOT EXISTS instanciadb;
+
+USE instanciadb;
+
+CREATE TABLE team(
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    twitter VARCHAR(50) NOT NULL,
+    country VARCHAR(50) NOT NULL,
+    side VARCHAR(50) NOT NULL
+);

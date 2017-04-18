@@ -1,0 +1,9 @@
+{
+    "mssql" : {
+        "host" : "instanciadb.c3mtbbjkb9us.us-west-2.rds.amazonaws.com",
+        "port" : 1433,
+        "user" : "rootDB",
+        "password" : "d99ms4Gzv6i",
+        "db" : "instanciadb"
+    }
+}
