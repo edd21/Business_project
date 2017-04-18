@@ -4,8 +4,9 @@ var gulp          = require('gulp'),
     sass          = require('gulp-sass'),
     nano          = require('gulp-cssnano'),
     autoprefixer  = require('gulp-autoprefixer'),
-    rename        = require('gulp-rename');
-    uncss         = require('gulp-uncss');
+    rename        = require('gulp-rename'),
+    uncss         = require('gulp-uncss'),
+    gulpExpress   = require('gulp-express');
 
 var url 		= 'neat.dev'
 
@@ -18,6 +19,11 @@ var config = {
   }
 }
 
+//start the server (backend) at the beginning of the task
+gulp.task('server', () => {
+    server.run(['server.js']);
+});
+
 gulp.task('browser-sync', function() {
 	var files = [
 					'**/*.php',
@@ -29,7 +35,6 @@ gulp.task('browser-sync', function() {
 		injectChanges: true
 	});
 });
-
 
 //Watch changes in files
 gulp.task('watch', function(){

@@ -2,9 +2,10 @@
   "name": "bussiness-project",
   "version": "1.0.0",
   "description": "Proyecto que concentra todos los negocios locales que necesitan ser anunciados para un mayor crecimiento económico, así mismo el usuario tiene la posibilidad de localizar el comercio de su interés y preferencia",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor server.js",
   },
   "repository": {
     "type": "git",
@@ -21,12 +22,22 @@
   },
   "homepage": "https://github.com/edd21/Business_project#readme",
   "dependencies": {
+    "body-parser": "^1.17.1",
     "browser-sync": "^2.18.7",
+    "express": "^4.15.2",
+    "express-method-override": "0.0.3",
+    "express-myconnection": "^1.0.4",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-cssnano": "^2.1.2",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
-    "gulp-uncss": "^1.0.6"
+    "gulp-uncss": "^1.0.6",
+    "mssql": "^4.0.1",
+    "serve-favicon": "^2.4.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.8.1",
+    "supervisor": "^0.12.0"
   }
 }
