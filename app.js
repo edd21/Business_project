@@ -11,7 +11,11 @@ const express = require('express'),
       viewDir = `${__dirname}/views`,
       port = (process.env.PORT || 8080);
 
-let app = express();
+let app = express(),
+    server = require('http').createServer(app);
+
+// Routing
+app.use(express.static(__dirname));
 
 //Settings
 app
@@ -26,9 +30,9 @@ app
     .use( restFul )        //check the var
     //.use( routes )
 
+/*------------------------------------------------------Programación de Prueba-----------------------*/
+    .get('/', (req, res, next) => { res.sendFile('index.html'); });
 
-    .get('/', (req, resp) => {
-            resp.sendFile('./index.html', { root: __dirname });
-    });
+
 //export the Settings
 module.exports = app;

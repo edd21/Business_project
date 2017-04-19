@@ -6,7 +6,6 @@ var gulp          = require('gulp'),
     autoprefixer  = require('gulp-autoprefixer'),
     rename        = require('gulp-rename'),
     uncss         = require('gulp-uncss'),
-    gulpExpress   = require('gulp-express');
 
 var url 		= 'neat.dev'
 
@@ -18,11 +17,6 @@ var config = {
     output: './assets/styles/'
   }
 }
-
-//start the server (backend) at the beginning of the task
-gulp.task('server', () => {
-    server.run(['server.js']);
-});
 
 gulp.task('browser-sync', function() {
 	var files = [
