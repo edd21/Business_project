@@ -4,15 +4,18 @@
 
 const conn = require('./model');
 
+
 //aquí empezaremos a implementar la clase Teammodel
 class LoginModel{
     getAllUsers(cb) { //nos traerá todos los datos de la tabla
         //aquí realizaremos la conexión a la base de datos
         //conn.query('SELECT * FROM team', cb);
+
     }
 
     getOneUser(id, cb) {  //obtener un registro específico
         //conn.query('SELECT * FROM team WHERE id = ?', id, cb);
+
     }
 
     saveUser(data, cb) {

@@ -21,5 +21,13 @@
         "Contrasenia" : "QWERTY",
         "Nombre" : "Adrian",
         "Edad" : 16
+    },
+    
+    {
+        "idVisitante" : 1,
+        "Correo" : "dk@gmail.com",
+        "Contrasenia" : "9874",
+        "Nombre" : "DK",
+        "Edad" : 21
     }
 ]

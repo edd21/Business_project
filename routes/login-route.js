@@ -1,13 +1,17 @@
 'use strict';
 
-const LoginController = require('../controllers/login-controller'),
-      express = require('express'),        // Express aqui se usa como router
-      router = express.Router(),
-      lc = new LoginController();  //toda la programacion se va al controlador
-/*
-//Ruta del home
-router.get('/', lc.getAll);  //se ejecuta ahora el método .getAll del controller
+//Depende del controller
+//const LoginController = require('../controllers/login-controller'),
 
+const express = require('express'),        // Express aqui se usa como router
+      router = express.Router();
+      //lc = new LoginController();  //toda la programacion se va al controlador
+
+//Ruta del home
+//.get('/', lc.getAll);  //se ejecuta ahora el método .getAll del controller
+router
+      .get('/', (req, res, next) => { res.sendFile('index.html'); });
+/*
 //manda a llamar a la vista de 'agregar.pug'
 router.get('/agregar', tc.addForm);
 

@@ -4,6 +4,11 @@
 const LoginModel = require('../models/login-model'),
       lm = new LoginModel();
 
+/*-------------Variables de prueba------------------*/
+let cliente = require('../test/Cliente'),
+    visitante = require('../test/Visitante');
+/*--------------------------------------------------*/
+
 class LoginController {
 
     getAllUsers(req, res, next) { //nos traerá todos los datos de la tabla
